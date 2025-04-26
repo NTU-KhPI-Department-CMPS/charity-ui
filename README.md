@@ -17,16 +17,16 @@ Back-end можна знайти за посиланням: [back-end](https://g
 - Java 11
 - Docker
 
-### Як зібрати проект
-
+### Як запустити проект
+1. Запустити back-end
+2. Завантажити залежності з npm
 ```shell
-docker compose up -d
+npm install 
 ```
-
+3. Запустити проєкт
 ```shell
-mvn clean install 
+npm start 
 ```
-
 
 ## Розробники проєкту
 #### Дизайнери
@@ -61,13 +61,14 @@ Back-end is located here: [back-end](https://github.com/NTU-KhPI-Department-CMPS
 - Docker
 
 ### How to build project
-
+1. Run back-end
+2. Download dependencies from npm
 ```shell
-docker compose up -d
+npm install 
 ```
-
+3. Start project
 ```shell
-mvn clean install 
+npm start 
 ```
 
 ## Project developers
